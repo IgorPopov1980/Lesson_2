@@ -62,12 +62,22 @@
 Задача 6
 Найти сумму цифр числа.
 '''
-
+# integer_number = 6542
+# sum = 0
+# while integer_number>0:
+#     sum = sum + integer_number%10
+#     integer_number = integer_number//10
+# print('Сумма цифр числа =',sum)
 '''
 Задача 7
 Найти произведение цифр числа.
 '''
-
+# integer_number = 584
+# num = 1
+# while integer_number>0:
+#     num *= integer_number%10
+#     integer_number = integer_number//10
+# print('Произведение цифр числа =',num)
 '''
 Задача 8
 Дать ответ на вопрос: есть ли среди цифр числа 5?
@@ -85,8 +95,23 @@
 Задача 9
 Найти максимальную цифру в числе
 '''
-
+# max_number = 0
+# integer_number = 6489
+# while integer_number > 0:
+#     if max_number < integer_number % 10:
+#         max_number = integer_number % 10
+#     integer_number = integer_number // 10
+# print('Максимальная цифра в числе -', max_number)
 '''
 Задача 10
 Найти количество цифр 5 в числе
 '''
+# sum = 0
+# integer_number = input('Введите целое число')
+# integer_number = int(integer_number)
+# while integer_number > 0:
+#     if integer_number % 10 == 5:
+#         sum = sum + 1
+#
+#     integer_number = integer_number // 10
+# print('Количество цифр 5 в числе -',sum)
